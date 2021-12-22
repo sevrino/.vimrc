@@ -1,6 +1,6 @@
 set rtp+=$VIM/Vundle
 
-call vundle#begin('$VIM=/Vundle')
+call vundle#begin('$VIM/Vundle')
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'nanotech/jellybeans.vim'
