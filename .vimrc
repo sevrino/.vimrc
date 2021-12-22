@@ -46,3 +46,13 @@ let g:diminactive_enable_focus = 1
 syntax enable
 filetype indent on
 highlight Comment term=bold cterm=bold ctermfg=4
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Hack\ 11
+  elseif has("gui_macvim")
+    set guifont=Hack\ Regular:h11
+  elseif has("gui_win32")
+    set guifont=D2Coding:h11:cANSI
+  endif
+endif
