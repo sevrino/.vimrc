@@ -1,4 +1,4 @@
-set rtp+=$VIM=/Vundle
+set rtp+=$VIM/Vundle
 
 call vundle#begin('$VIM=/Vundle')
 
